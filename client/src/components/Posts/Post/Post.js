@@ -11,7 +11,7 @@ import { useHistory } from 'react-router-dom';
 import { getPost, likePost, deletePost } from '../../../actions/posts';
 import useStyles from './styles';
 
-const Post = ({ post, setCurrentId }) => {
+  const Post = ({ post, setCurrentId }) => {
   const dispatch = useDispatch();
   const classes = useStyles();
   const user = JSON.parse(localStorage.getItem('profile'));
