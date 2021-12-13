@@ -10,7 +10,6 @@ import useStyles from './styles';
 const Post = () => {
   const { post, isLoading } = useSelector((state) => state.posts);
   const dispatch = useDispatch();
-  // const history = useHistory();
   const classes = useStyles();
   const { id } = useParams();
 
